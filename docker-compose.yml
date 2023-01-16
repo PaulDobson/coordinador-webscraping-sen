@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  coordinadorwebscrapingsen:
+    image: coordinadorwebscrapingsen
+    build:
+      context: .
+      dockerfile: ./Dockerfile
