@@ -11,4 +11,5 @@ class RepositoriesFactory:
         if repository_name in self.__repositories:
             return self.__repositories[repository_name]
         else:
+            #En caso de error lanza exceopcion
             raise Exception("Repository does not exist")
